@@ -1,0 +1,158 @@
+body{margin: 0;}
+.navbar{
+  display: flex;
+height: 50px;
+justify-content: space-evenly;
+  
+ 
+ position:fixed;
+  background-color: black;
+}
+button {
+  background-color:transparent;
+  color: white;
+  padding: 10px 20px;
+  
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+  
+   
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.whole{
+  
+  margin: none;
+}
+.name-div{
+  color: white;
+  font-size:xx-large;
+  width: 40%;
+}
+.name-photo-div{
+  display: flex;
+  justify-content: space-around;
+  
+ 
+}
+.home-page-nav{
+  
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh; /* Minimum height of viewport */
+    justify-content: space-between; /* Place items at the top and bottom */
+  }
+  
+
+.bottom-details{
+  display: flex;
+  
+  justify-content: space-evenly;
+  background-color: BLACK;
+  color: white;
+  
+}
+
+.image-right{
+   /* Set maximum width to fill the available space */
+  height: auto; /* Let the browser maintain the aspect ratio */
+ 
+}
+.discription{
+  font-size:large;
+}
+.u-of-c-logo{
+  width: 10%;
+  margin-right: 5px;
+}
+.Education-whole{
+color: white;
+margin-left: 0px;
+justify-content: left;
+
+
+}
+.Education-item{
+display: flex;
+margin-left: 0px;
+align-items:safe;
+justify-content: left;
+}
+.school-info{
+  display: flex;
+  flex-direction: column;
+}
+.replace{
+  min-height: 84vh;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  
+}
+.insta{
+  width: 20px;
+  margin-right: 2px;
+ padding: none;
+}
+.con{
+  margin-top: 100px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+}
+.Projects-div{
+  display: flex;
+  
+  color: white;
+  align-items: center;
+  padding-left: 10px;
+  margin-bottom: 40px;
+  
+  
+
+  
+  
+}
+.Lotion-picture{
+ 
+  width: 30%;
+  margin-left: auto;
+  margin-right: 20px;
+  margin-top: 80px;
+ 
+ 
+}
+.para{
+  width: 40%;
+
+}
+.projects-section{
+  padding-top: 40px;
+}
+.skills-div{
+  color: white;
+}
+.languages-div{
+  display: flex;
+
+}
+.Languages-picture{
+  width: 15%;
+  margin-left: auto;
+  margin-right: 200px;
+  margin-top: 50px;
+  padding-bottom: 20px;
+  height: 100px;
+  padding-top: 20px;
+}
+#last-pic{
+  height: 250px;
+}
+.same-line{
+  padding-bottom: 10px;
+}
